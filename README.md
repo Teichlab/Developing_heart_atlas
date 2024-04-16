@@ -6,6 +6,9 @@ Data processing and analysis for the papers below:
 Processed data of sc/snRNAseq and Visium data are available for browsing and download via [heartcellatlas.org](https://www.heartcellatlas.org/foetal.html)
 
 ## Contents
-### RNA
-### ATAC
-### Visium
+### General processing
+    * RNA (including cell type annotations)
+    * ATAC
+    * Visium
+### Method centered
+### Biology centered
