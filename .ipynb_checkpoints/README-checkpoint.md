@@ -10,5 +10,5 @@ Processed data of sc/snRNAseq and Visium data are available for browsing and dow
     * RNA (including cell type annotations)
     * ATAC
     * Visium
-### Method centered
-### Biology centered
+### Method centric
+### Biology centric
