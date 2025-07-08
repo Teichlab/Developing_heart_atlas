@@ -12,7 +12,7 @@ Processed data of sc/snRNAseq and Visium data will be available for browsing and
     - Visium
     - VisiumHD
     - Xenium-5K
-### Identified cellular niches and TissueTypist (Figure 2)
+### Overview of cellular niches and TissueTypist (Figure 2)
     - Cell type enrichment in cellular niches
     - TissueTypist downstream analysis
 ### The developing sinoatrial node (Figure 3)

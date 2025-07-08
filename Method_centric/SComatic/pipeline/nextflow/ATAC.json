@@ -1,7 +1,0 @@
-{
-    "modality": "ATAC",
-    "genome": "/lustre/scratch126/cellgen/team205/kp9/refdata-gex-GRCh38-2020-A/fasta/genome.fa",
-    "scomatic": "/nfs/team205/kp9/nextflow/scomatic/SComatic/scripts",
-    "pons": "/nfs/team205/kp9/nextflow/scomatic/SComatic/PoNs/PoN.scATACseq.hg38.tsv",
-    "bed": "/nfs/team205/kp9/nextflow/scomatic/SComatic/bed_files_of_interest/UCSC.k100_umap.without.repeatmasker.bed"
-}
