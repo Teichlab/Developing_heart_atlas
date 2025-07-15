@@ -27,6 +27,6 @@ The TissueTypist package is [here](https://github.com/Teichlab/TissueTypist)
 ### Trisomy 21 (Figure 5)
 - Differential abundance test (Milo) based on integrated latent space
 - Differentially expressed gene ananlysis and GSEA using Milo cellular neighbourhoods
-### Others 
+### Supplementary materials
 - Epigenetic stability analysis
 - Cardiac macrophage development
