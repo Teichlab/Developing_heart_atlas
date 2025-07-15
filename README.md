@@ -7,31 +7,26 @@ Processed data of sc/snRNAseq and Visium data will be available for browsing and
 
 ## Contents
 ### General processing (Figure 1)
-    - RNA (including cell type annotations)
-    - ATAC
-    - Visium
-    - VisiumHD
-    - Xenium-5K
+- RNA (including cell type annotations)
+- ATAC
+- Visium
+- VisiumHD
+- Xenium-5K
 ### Overview of cellular niches and TissueTypist (Figure 2)
-    - Cell type enrichment in cellular niches
-    - TissueTypist downstream analysis
+- Cell type enrichment in cellular niches
+- TissueTypist downstream analysis
+The TissueTypist package is [here](https://github.com/Teichlab/TissueTypist)
 ### The developing sinoatrial node (Figure 3)
-    - Single-nucleus Multiome
-    - Visium HD
-    - Cell-cell interaction analysis
-### Atrial cardiomyocyte maturation (Figure 4)
-
-### Ventricular cardiomyocyte development (Figure 4)
-    - Transmural axis analyiss using [OrganAxis](https://github.com/nadavyayon/TissueTag)
-
+- SAN pacemaker cell gene signatures
+- SAN niche with Visium HD
+- Cell-cell interaction analysis
+### Cardiomyocyte development and maturation (Figure 4)
+- Atrial cardiomyocyte maturation
+- Ventricular cardiomyoyte development
+- Ventricular transmural axis analyiss using [OrganAxis](https://github.com/nadavyayon/TissueTag)
 ### Trisomy 21 (Figure 5)
-
+- Differential abundance test (Milo) based on integrated latent space
+- Differentially expressed gene ananlysis and GSEA using Milo cellular neighbourhoods
 ### Others 
-    - Epigenetic stability analysis
-
-### Biology centric
-    - SAN pacemaker cells
-    - Atrial cardiomyocytes
-    - Ventricular cardiomyocytes
-    - Macrophages
-    - Trisomy21
+- Epigenetic stability analysis
+- Cardiac macrophage development
