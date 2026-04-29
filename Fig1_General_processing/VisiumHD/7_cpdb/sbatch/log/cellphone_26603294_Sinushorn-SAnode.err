@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: slice(None, None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/notebooks/Foetal/VisiumHD/Revision_Oct2025/7_cpdb/sbatch/./run_cpdb_statistical.py", line 30, in <module>
+    cpdb_results = cpdb_statistical_analysis_method.call(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/cellphonedb/src/core/methods/cpdb_statistical_analysis_method.py", line 111, in call
+    counts, counts_relations = cpdb_statistical_analysis_helper.add_multidata_and_means_to_counts(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/cellphonedb/src/core/methods/cpdb_statistical_analysis_helper.py", line 777, in add_multidata_and_means_to_counts
+    counts = counts.merge(
+             ^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/frame.py", line 10839, in merge
+    return merge(
+           ^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 184, in merge
+    return op.get_result(copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 888, in get_result
+    result = self._reindex_and_concat(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 837, in _reindex_and_concat
+    left = self.left[:]
+           ~~~~~~~~~^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/frame.py", line 4080, in __getitem__
+    and key in self.columns
+        ^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/indexes/category.py", line 368, in __contains__
+    return contains(self, key, container=self._engine)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 230, in contains
+    loc = cat.categories.get_loc(key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rfs/project/rfs-iCNyzSAaucw/kk837/conda_envs/cpdb_env/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3818, in get_loc
+    raise InvalidIndexError(key)
+pandas.errors.InvalidIndexError: slice(None, None, None)

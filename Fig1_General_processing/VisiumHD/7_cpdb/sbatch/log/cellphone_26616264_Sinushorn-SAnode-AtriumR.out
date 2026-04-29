@@ -1,0 +1,20 @@
+##### MIN_PERCENT=0.05, REGION=Sinushorn-SAnode-AtriumR #####
+Reading user files...
+The following user files were loaded successfully:
+/rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/inputs/log_norm_counts_Sinushorn-SAnode-AtriumR.h5ad
+/rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/inputs/meta_Sinushorn-SAnode-AtriumR.txt
+[ ][CORE][31/03/26-09:13:27][INFO] [Cluster Statistical Analysis] Threshold:0.05 Iterations:1000 Debug-seed:42 Threads:5 Precision:3
+[ ][CORE][31/03/26-09:13:27][WARNING] Debug random seed enabled. Set to 42
+[ ][CORE][31/03/26-09:13:30][INFO] Running Real Analysis
+[ ][CORE][31/03/26-09:13:30][INFO] Running Statistical Analysis
+[ ][CORE][31/03/26-09:14:36][INFO] Building Pvalues result
+[ ][CORE][31/03/26-09:14:36][INFO] Building results
+[ ][CORE][31/03/26-09:14:36][INFO] Scoring interactions: Filtering genes per cell type..
+[ ][CORE][31/03/26-09:14:37][INFO] Scoring interactions: Calculating mean expression of each gene per group/cell type..
+[ ][CORE][31/03/26-09:14:37][INFO] Scoring interactions: Calculating scores for all interactions and cell types..
+Saved deconvoluted to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_deconvoluted_03_31_2026_091516.txt
+Saved deconvoluted_percents to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_deconvoluted_percents_03_31_2026_091516.txt
+Saved means to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_means_03_31_2026_091516.txt
+Saved pvalues to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_pvalues_03_31_2026_091516.txt
+Saved significant_means to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_significant_means_03_31_2026_091516.txt
+Saved interaction_scores to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode-AtriumR/statistical_analysis_interaction_scores_03_31_2026_091516.txt

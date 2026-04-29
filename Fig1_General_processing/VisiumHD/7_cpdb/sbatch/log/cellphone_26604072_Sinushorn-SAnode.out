@@ -1,0 +1,20 @@
+##### MIN_PERCENT=0.05, REGION=Sinushorn-SAnode #####
+Reading user files...
+The following user files were loaded successfully:
+/rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/inputs/log_norm_counts_Sinushorn-SAnode.h5ad
+/rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/inputs/meta_Sinushorn-SAnode.txt
+[ ][CORE][30/03/26-23:49:57][INFO] [Cluster Statistical Analysis] Threshold:0.05 Iterations:1000 Debug-seed:42 Threads:5 Precision:3
+[ ][CORE][30/03/26-23:49:57][WARNING] Debug random seed enabled. Set to 42
+[ ][CORE][30/03/26-23:49:59][INFO] Running Real Analysis
+[ ][CORE][30/03/26-23:49:59][INFO] Running Statistical Analysis
+[ ][CORE][30/03/26-23:50:35][INFO] Building Pvalues result
+[ ][CORE][30/03/26-23:50:36][INFO] Building results
+[ ][CORE][30/03/26-23:50:36][INFO] Scoring interactions: Filtering genes per cell type..
+[ ][CORE][30/03/26-23:50:36][INFO] Scoring interactions: Calculating mean expression of each gene per group/cell type..
+[ ][CORE][30/03/26-23:50:36][INFO] Scoring interactions: Calculating scores for all interactions and cell types..
+Saved deconvoluted to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_deconvoluted_03_30_2026_235109.txt
+Saved deconvoluted_percents to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_deconvoluted_percents_03_30_2026_235109.txt
+Saved means to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_means_03_30_2026_235109.txt
+Saved pvalues to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_pvalues_03_30_2026_235109.txt
+Saved significant_means to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_significant_means_03_30_2026_235109.txt
+Saved interaction_scores to /rfs/project/rfs-iCNyzSAaucw/kk837/data_objects/Foetal/VisiumHD/Revision_Oct2025/cellphonedb/Sinushorn-SAnode/statistical_analysis_interaction_scores_03_30_2026_235109.txt

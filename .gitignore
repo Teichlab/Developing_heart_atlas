@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+__pycache__/
+*.h5ad
+*.h5
+*.loom
+*.zarr/
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+*.tsv
+*.mtx
+*.npz
+*.npy
