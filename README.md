@@ -13,9 +13,10 @@ Processed data of sc/snRNAseq and Visium data will be available for browsing and
 - VisiumHD
 - Xenium-5K
 ### Overview of cellular niches and TissueTypist (Cranley et al - Figure 2)
-- Cell type enrichment in cellular niches
-- TissueTypist downstream analysis
-The TissueTypist package is [here](https://github.com/Teichlab/TissueTypist)
+- VisiumHD niche
+- VisiumSD niche
+- Define hierarchical structure of cellular niches
+- The TissueTypist package is [here](https://github.com/Teichlab/TissueTypist)
 ### The developing sinoatrial node (Cranley et al - Figure 3)
 - SAN pacemaker cell gene signatures
 - SAN niche with Visium HD
